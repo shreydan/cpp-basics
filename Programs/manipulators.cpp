@@ -6,14 +6,14 @@ int main() {
 
     /*
         manipulators used:
-            setprecision - decimal precision
+            setprecision - decimal precision, rounds + significant figures
             endl - new line 
             setw - width of output
             setfill - fills empty of setw with something
 
     */
 
-    float a = 2;
+    double a = 1.42495484;
     cout << setprecision(5) << a << endl;
 
     string b = "shreyas";
@@ -29,7 +29,7 @@ int main() {
 /*
 OUTPUT:
 
-2
+1.425
    shreyas    daniel
 007
 
